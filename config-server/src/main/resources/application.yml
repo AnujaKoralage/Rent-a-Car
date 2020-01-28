@@ -1,0 +1,12 @@
+server:
+  port: 8191
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/AnujaKoralage/spring-cloud-config-store
+          skipSslValidation: true
+          search-paths:
+            - '+service'
