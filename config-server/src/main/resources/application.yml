@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/AnujaKoralage/spring-cloud-config-store
+          uri: https://github.com/AnujaKoralage/Rent-a-Car/tree/master/git-config-store
           skipSslValidation: true
           search-paths:
-            - '+service'
+            - '+service-config/*service'
