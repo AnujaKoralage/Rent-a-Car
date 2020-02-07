@@ -1,1 +1,8 @@
-
+spring:
+  application:
+    name: profile
+  jpa:
+    hibernate:
+      ddl-auto: update
+      security.basic.enable: false
+      security.ignored: /**
